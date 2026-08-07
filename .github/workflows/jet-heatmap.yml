@@ -12,9 +12,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: contribution-rocket
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
@@ -24,11 +29,21 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate live rocket heatmap
+      - name: Generate live contribution rocket
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT_PATH: dist/github-jet.svg
         run: node generate.mjs
 
-      - name: Commit
+      - name: Publish refreshed animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/github-jet.svg
+          if git diff --cached --quiet; then
+            echo "Contribution animation is already current."
+          else
+            git commit -m "Update contribution rocket animation"
+            git push
+          fi
