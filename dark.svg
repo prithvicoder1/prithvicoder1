@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07111f"/>
+    <stop offset="55%" stop-color="#0b1220"/>
+    <stop offset="100%" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#22d3ee">
+      <animate attributeName="stop-color" values="#22d3ee;#8b5cf6;#34d399;#22d3ee" dur="9s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#8b5cf6">
+      <animate attributeName="stop-color" values="#8b5cf6;#34d399;#22d3ee;#8b5cf6" dur="9s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <radialGradient id="glow" cx="35%" cy="25%" r="80%">
+    <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="avatarClip"><circle cx="220" cy="250" r="112"/></clipPath>
+  <style>
+    .mono{font-family:'Courier New',Consolas,monospace}.ui{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .muted{fill:#94a3b8}.text{fill:#e5e7eb}.key{fill:#38bdf8;font-weight:700}.val{fill:#f8fafc}.green{fill:#34d399}.violet{fill:#a78bfa}.tiny{font-size:12px}.small{font-size:14px}.body{font-size:16px}.head{font-size:18px;font-weight:700}.title{font-size:28px;font-weight:800}
+  </style>
+</defs>
+
+<rect width="1180" height="610" rx="22" fill="url(#bg)"/>
+<rect width="1180" height="610" rx="22" fill="url(#glow)"/>
+<circle cx="970" cy="90" r="120" fill="#7c3aed" opacity="0.08" filter="url(#soft)"/>
+<circle cx="160" cy="520" r="140" fill="#0891b2" opacity="0.06" filter="url(#soft)"/>
+
+<!-- top terminal bar -->
+<rect x="3" y="3" width="1174" height="42" rx="19" fill="#0f172a" stroke="#1e293b"/>
+<circle cx="26" cy="24" r="5" fill="#fb7185"/><circle cx="45" cy="24" r="5" fill="#fbbf24"/><circle cx="64" cy="24" r="5" fill="#34d399"/>
+<text x="590" y="29" text-anchor="middle" class="mono small muted">prithvi@ai-lab ~ % ./profile.sh --live</text>
+<circle cx="1084" cy="24" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="1.1s" repeatCount="indefinite"/></circle>
+<text x="1097" y="28" class="mono tiny green">ONLINE</text>
+
+<!-- left panel -->
+<rect x="18" y="62" width="405" height="520" rx="18" fill="#0b1322" fill-opacity="0.88" stroke="url(#accent)" stroke-opacity="0.65"/>
+<text x="38" y="91" class="mono tiny muted" letter-spacing="2">IDENTITY.MAP</text>
+<circle cx="220" cy="250" r="124" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.8">
+  <animate attributeName="stroke-dasharray" values="15 8;5 12;15 8" dur="5s" repeatCount="indefinite"/>
+</circle>
+<image href="https://avatars.githubusercontent.com/u/133096195?v=4" x="108" y="138" width="224" height="224" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+<circle cx="309" cy="329" r="13" fill="#052e16" stroke="#34d399"/>
+<circle cx="309" cy="329" r="5" fill="#34d399"><animate attributeName="r" values="4;6;4" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="220" y="402" text-anchor="middle" class="ui title text">Prithvi Vijay</text>
+<text x="220" y="429" text-anchor="middle" class="mono small key">@prithvicoder1</text>
+<text x="220" y="457" text-anchor="middle" class="ui small muted">Aspiring AI/ML Engineer</text>
+<text x="220" y="480" text-anchor="middle" class="ui tiny muted">ECE • Arya College • Jaipur</text>
+
+<g transform="translate(52,510)">
+  <rect width="98" height="34" rx="17" fill="#0f1f2f" stroke="#164e63"/><text x="49" y="22" text-anchor="middle" class="mono tiny key">PYTHON</text>
+  <rect x="108" width="98" height="34" rx="17" fill="#15152b" stroke="#5b21b6"/><text x="157" y="22" text-anchor="middle" class="mono tiny violet">ML/AI</text>
+  <rect x="216" width="98" height="34" rx="17" fill="#0e1c19" stroke="#047857"/><text x="265" y="22" text-anchor="middle" class="mono tiny green">FASTAPI</text>
+</g>
+
+<!-- right panel -->
+<rect x="444" y="62" width="718" height="520" rx="18" fill="#08111f" fill-opacity="0.91" stroke="#1f2937"/>
+<text x="466" y="91" class="mono tiny muted" letter-spacing="2">SYSTEM.INFO</text>
+<text x="466" y="126" class="mono body key">const</text><text x="515" y="126" class="mono body text"> prithvi = {</text>
+
+<text x="486" y="158" class="mono small key">role:</text><text x="555" y="158" class="mono small val"> "Aspiring AI/ML Engineer",</text>
+<text x="486" y="186" class="mono small key">education:</text><text x="582" y="186" class="mono small val"> "B.Tech ECE • 2023–2027",</text>
+<text x="486" y="214" class="mono small key">experience:</text><text x="590" y="214" class="mono small val"> "AI • ML • Data Science Internships",</text>
+<text x="486" y="242" class="mono small key">core:</text><text x="548" y="242" class="mono small val"> ["Python", "Java", "SQL", "C"],</text>
+<text x="486" y="270" class="mono small key">ml:</text><text x="531" y="270" class="mono small val"> ["Scikit-learn", "Pandas", "NumPy"],</text>
+<text x="486" y="298" class="mono small key">backend:</text><text x="565" y="298" class="mono small val"> ["FastAPI", "Flask", "REST APIs"],</text>
+<text x="486" y="326" class="mono small key">devops:</text><text x="562" y="326" class="mono small val"> ["Docker", "Git", "Linux"],</text>
+<text x="486" y="354" class="mono small key">learning:</text><text x="572" y="354" class="mono small val"> ["PyTorch", "LLMs", "RAG", "MLOps"],</text>
+<text x="486" y="382" class="mono small key">mission:</text><text x="566" y="382" class="mono small green"> "build → deploy → improve"</text>
+<text x="466" y="410" class="mono body text">};</text>
+
+<text x="466" y="446" class="mono tiny muted" letter-spacing="2">FEATURED.BUILDS</text>
+<g transform="translate(466,462)">
+  <rect width="160" height="74" rx="12" fill="#0f172a" stroke="#164e63"/>
+  <text x="14" y="24" class="ui small text" font-weight="700">MindScope AI</text><text x="14" y="47" class="mono tiny muted">ML • FastAPI</text><text x="14" y="63" class="mono tiny green">deployed</text>
+  <rect x="172" width="160" height="74" rx="12" fill="#0f172a" stroke="#5b21b6"/>
+  <text x="186" y="24" class="ui small text" font-weight="700">HeartVision AI</text><text x="186" y="47" class="mono tiny muted">Scikit-learn</text><text x="186" y="63" class="mono tiny green">deployed</text>
+  <rect x="344" width="160" height="74" rx="12" fill="#0f172a" stroke="#047857"/>
+  <text x="358" y="24" class="ui small text" font-weight="700">AIEngineerOS</text><text x="358" y="47" class="mono tiny muted">HTML • CSS • JS</text><text x="358" y="63" class="mono tiny green">live</text>
+  <rect x="516" width="160" height="74" rx="12" fill="#0f172a" stroke="#9f1239"/>
+  <text x="530" y="24" class="ui small text" font-weight="700">SynthStyle</text><text x="530" y="47" class="mono tiny muted">TF.js • Three.js</text><text x="530" y="63" class="mono tiny violet">AI/AR</text>
+</g>
+
+<!-- scanline animation -->
+<rect x="444" y="63" width="718" height="5" fill="url(#accent)" opacity="0.22">
+  <animate attributeName="y" values="68;566;68" dur="7s" repeatCount="indefinite"/>
+</rect>
+<rect x="466" y="557" width="14" height="3" fill="#38bdf8"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+</svg>
