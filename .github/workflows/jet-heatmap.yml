@@ -1,0 +1,34 @@
+name: Update Rocket Contribution Game
+
+on:
+  schedule:
+    - cron: "20 5 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "generate.mjs"
+      - ".github/workflows/jet-heatmap.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate live rocket heatmap
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT_PATH: dist/github-jet.svg
+        run: node generate.mjs
+
+      - name: Commit
