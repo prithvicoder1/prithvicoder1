@@ -1,48 +1,68 @@
 <div align="center">
 
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg">
-<img alt="Prithvi Vijay AI Developer Profile" src="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg" width="100%" />
 
-<br/>
-
-<a href="https://github.com/prithvicoder1">GitHub</a> • <a href="https://www.linkedin.com/in/prithvi-vijay-093880278/">LinkedIn</a> • <a href="mailto:vijayprithvi38@gmail.com">Email</a>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2500&pause=500&color=38BDF8&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer+in+Progress;Building+Real+World+Intelligent+Systems;Python+%7C+Machine+Learning+%7C+FastAPI;Turning+Ideas+Into+AI+Products" />
 
 </div>
 
 ---
 
-## 🧠 About Me
+<div align="center">
 
-I am **Prithvi Vijay**, an aspiring AI/ML Engineer building practical intelligent systems using Machine Learning, Data Science, Backend Development and modern AI technologies.
+## 🚀 Live Contribution Rocket Mission
 
-- 🤖 Machine Learning & AI Applications
-- 🐍 Python Development
-- 📊 Data Science & Model Building
-- ⚡ FastAPI Backend Engineering
-- 🚀 Deploying Real-World AI Solutions
+<img src="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dist/github-jet.svg" width="95%" />
 
-## 🚀 Featured Projects
+</div>
 
-| Project | Description | Stack |
+---
+
+## 🧠 AI Profile
+
+```yaml
+name: Prithvi Vijay
+role: Aspiring AI/ML Engineer
+focus:
+  - Machine Learning
+  - Data Science
+  - Backend Engineering
+  - Generative AI
+  - MLOps
+mission: Build intelligent systems that solve real problems
+```
+
+---
+
+## ⚡ Core Technologies
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,fastapi,docker,linux,mysql,postgres,git,github,js,html,css" />
+</div>
+
+Machine Learning • Pandas • NumPy • Scikit-learn • SQL • REST API • Docker • Cloud Deployment
+
+---
+
+## 🚀 Featured AI Systems
+
+| Project | What it does | Technology |
 |---|---|---|
-| 🧠 MindScope AI | Student wellness prediction platform | Python • ML • FastAPI |
-| ❤️ HeartVision AI | Healthcare prediction system | Scikit-learn • Streamlit |
-| 🤖 AIEngineerOS | AI learning platform | HTML • CSS • JS |
-| 👗 SynthStyle AI | AI fashion & computer vision project | JavaScript • AI |
+| 🧠 MindScope AI | AI powered student mental wellness prediction platform | Python • ML • FastAPI |
+| ❤️ HeartVision AI | Healthcare prediction intelligence system | Scikit-learn • Streamlit |
+| 🤖 AIEngineerOS | AI learning and engineering platform | HTML • CSS • JavaScript |
+| 👗 SynthStyle AI | AI fashion and computer vision concept | JavaScript • AI |
 
-## ⚡ Tech Stack
+---
 
-Python • Java • C/C++ • Pandas • NumPy • Scikit-learn • SQL • FastAPI • Docker • Git • Linux
-
-## 📊 GitHub Analytics
+## 📊 GitHub Intelligence
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=prithvicoder1&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prithvicoder1&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </div>
+
+---
 
 ## 🏆 Achievements
 
@@ -51,12 +71,14 @@ Python • Java • C/C++ • Pandas • NumPy • Scikit-learn • SQL • Fast
 💡 Eureka Pitching Competition Participant  
 ☁️ IBM Cloud Certification
 
+---
+
 ## 🌱 Currently Exploring
 
 `Deep Learning` `LLMs` `RAG` `PyTorch` `MLOps` `AI Agents`
 
 <div align="center">
 
-### 🚀 Building intelligent solutions with Artificial Intelligence
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prithvicoder1&theme=tokyo-night" width="100%" />
 
 </div>
