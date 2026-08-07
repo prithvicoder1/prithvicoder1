@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg">
-  <img src="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg" width="100%" alt="Prithvi Vijay — AI/ML engineer terminal dashboard">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg?v=20260807-caricature">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg?v=20260807-caricature">
+  <img src="https://raw.githubusercontent.com/prithvicoder1/prithvicoder1/main/dark.svg?v=20260807-caricature" width="100%" alt="Prithvi Vijay — AI/ML engineer terminal dashboard">
 </picture>
 
 <br>
